@@ -3,7 +3,7 @@
         <h3>{{title}}</h3>
         <div class="row">
             <Character 
-                v-for="(id, index) in initial_ids"
+                v-bind:v-for="(id, index) in initial_ids"
                 v-bind:id="id"
                 key="index"
             />
