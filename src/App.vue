@@ -3,9 +3,8 @@
         <h3>{{title}}</h3>
         <div class="row">
             <Character 
-                v-bind:v-for="(id, index) in initial_ids"
+                v-for="(id, index) in initial_ids"
                 v-bind:id="id"
-                key="index"
             />
         </div>        
     </div>
@@ -19,7 +18,7 @@
         data(){
             return {
                 title: "Generate your team",
-                initial_ids: [1, 5, 19]
+                initial_ids: [1, 5, 14]
             }
         },
         components: {
